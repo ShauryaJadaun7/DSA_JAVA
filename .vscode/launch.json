@@ -1,0 +1,15 @@
+{
+    // Use this launch configuration to run the `hello` class without printing the full java invocation line in the integrated terminal.
+    // It uses the Debug Console (internalConsole) which doesn't echo the underlying command.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Hello (internal console)",
+            "request": "launch",
+            "mainClass": "hello",
+            "console": "internalConsole",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
